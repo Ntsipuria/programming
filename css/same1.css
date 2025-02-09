@@ -1,0 +1,115 @@
+/* colors vars */
+:root {
+    --text-color: #B0B1AE;
+    --nav-bar-section-color: #2A3A48;
+    --body-color: #091A2B;
+    --header-click: #9747FF;
+}
+
+/* header css */
+.head {
+    background-color: var(--nav-bar-section-color);
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.ul-element {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+
+.head-a {
+    color: var(--text-color);
+    margin: 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.head-a:hover {
+    color: var(--header-click);
+}
+
+.fa-bars {
+    color: var(--text-color);
+    margin-left: 20px; 
+    font-size: 50px; 
+    cursor: pointer;
+}
+/* Dropdown menu styles */
+.dropdown {
+    position: relative; 
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    right: 0; 
+    background-color: var(--nav-bar-section-color);
+    padding: 10px 0;
+    list-style: none;
+    z-index: 1000;
+    min-width: 350px; 
+}
+
+.dropdown-menu li {
+    text-align: left;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: var(--text-color);
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--header-click);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+body {
+    background-color: var(--body-color);
+}
+
+
+/* footer css */
+.foot {
+    background-color: var(--nav-bar-section-color);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-p {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.foot-p {
+    margin-left: 150px;
+    margin-right: 150px;
+}

@@ -1,0 +1,187 @@
+/* colors vars */
+:root {
+    --text-color: #B0B1AE;
+    --nav-bar-section-color: #2A3A48;
+    --body-color: #091A2B;
+    --header-click: #9747FF;
+    --header-hover: #c550d0;
+}
+
+.movable {
+    color: var(--header-click);
+}
+
+.head-a:hover {
+    color: var(--header-hover);
+}
+
+/* head section css */
+.hed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* head container */
+.head-container {
+    width: 340px;
+    height: 55px;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+    margin: 144px 0;
+}
+
+/* main page section */
+.photo-sec, .bridge-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 144px;
+}
+
+.bridge-desc {
+    width: 1496px;
+    height: 111px;
+    margin-left: 80px;
+}
+
+/* bridge desc paragraph */
+.bridge-desc-p {
+    font-size: 32px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* suitability section css */
+.suitability {
+    width: 924px;
+    height: 354px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.suitability-h3 {
+    margin: 110px 0;
+    margin-right: 500px;
+    font-size: 36px;
+}
+
+.suitability-text{
+    width: 924px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 280px;
+}
+
+.suitability-h3, .suitability-p {
+    font-size: 36px;
+}
+
+/* pros cons section*/
+.pros-cons {
+    width: 645px;
+    height: 802px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 110px;
+    margin-left: 40px;
+}
+
+.pros-cons-h3 {
+    margin-top: 100px;
+    margin-bottom: 62px;
+    margin-right: 190px;
+    font-size: 36px;
+}
+
+.pros-cons-h3-1 {
+    margin-bottom: 62px;
+    margin-right: 350px;
+    font-size: 36px;
+}
+
+.pros-cons-text {
+    width: 534px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.pros-p {
+    font-size: 36px;
+}
+
+.con{
+    margin-top: 62px;
+    margin-bottom: 85px;
+}
+
+.pros-cons-text-2 { 
+    width: 742px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 310px;
+}
+
+/* examples section */
+.examples {
+    width: 1500px;
+    height: 3188px;
+    flex-shrink: 0;
+    margin-bottom: 144px;
+}
+
+.examples-head {
+    color: var(--text-color, #B0B1AE);
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 144px;
+}
+
+.example-box-p {
+    color: var(--text-color, #B0B1AE);
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 64px;
+    margin-bottom: 144px;
+}
+
+.example-box {
+    margin-left: 80px;
+}
+
+.ex-img {
+    margin-left: 70px;
+}
+
+.ex-3-p {
+    margin-left: 80px;
+}
